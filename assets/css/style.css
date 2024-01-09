@@ -1,0 +1,27 @@
+#output{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+    
+    background-color: #083b4c;
+}
+
+#fizz{
+    background-color: #0cd6a1;
+}
+
+#buzz{
+    background-color: #ffd166;
+}
+
+.box{
+    width: calc( (100% / 7) - 10px);
+    background-color: #1389b2;
+    aspect-ratio: 1;
+    text-align: center;
+  
+    margin: 5px;
+}
